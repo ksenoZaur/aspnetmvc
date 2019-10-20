@@ -1,31 +1,186 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53401fc9-4b42-4403-9410-30fd82e796c6" name="Default Changelist" comment="" />
+    <list default="true" id="53401fc9-4b42-4403-9410-30fd82e796c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ControllersBasics/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ControllersBasics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/Models/Contexts/BookContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/Views/Home/BuyBook.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/Antlr3.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/Antlr3.Runtime.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/ControllersBasics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/ControllersBasics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/EntityFramework.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/EntityFramework.SqlServer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/Microsoft.Web.Infrastructure.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/NLog.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/NLog.Web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/Newtonsoft.Json.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Helpers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Helpers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Optimization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Optimization.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.Razor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.WebPages.Deployment.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.WebPages.Deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.WebPages.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.WebPages.Razor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.WebPages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/System.Web.WebPages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/WebGrease.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/nlog.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.CSharp.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/Microsoft.VisualBasic.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/VBCSCompiler.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/VBCSCompiler.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/csc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/csc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/csc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/csi.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/csi.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/vbc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/vbc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/bin/roslyn/vbc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/nlog.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/obj/Debug/ControllersBasics.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/obj/Debug/ControllersBasics.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/obj/Debug/ControllersBasics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/obj/Debug/ControllersBasics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControllersBasics/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/NLog.4.6.7.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/monoandroid44/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/monoandroid44/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/net35/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/net35/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/net40-client/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/net40-client/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/net45/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/net45/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/netstandard1.3/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/netstandard1.3/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/netstandard1.5/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/netstandard1.5/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/netstandard2.0/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/netstandard2.0/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/sl4/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/sl4/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/sl5/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/sl5/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/wp8/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/wp8/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/xamarinios10/NLog.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.4.6.7/lib/xamarinios10/NLog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.Web.4.9.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.Web.4.9.0/NLog.Web.4.9.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.Web.4.9.0/lib/net35/NLog.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/NLog.Web.4.9.0/lib/net35/NLog.Web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControllersBasics/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControllersBasics/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControllersBasics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControllersBasics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/ControllersBasics.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ControllersBasics/ControllersBasics.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControllersBasics/Global.asax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/Views/Home/About.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/Views/Home/Contact.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControllersBasics/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControllersBasics/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/ControllersBasics/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControllersBasics/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/ControllersBasics/packages.config" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/Views/Home/BuyBook.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/nlog.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ControllersBasics/Models/Book.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ControllersBasics/Models/Purchase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/Global.asax" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/Global.asax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/Models/Contexts/BookContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ControllersBasics/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ControllersBasics/Models/Book.cs" />
         <option value="$PROJECT_DIR$/ControllersBasics/Models/Purchase.cs" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Models/Contexts/BookContext.cs" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/ControllersBasics/NLog.config.xml" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Web.config" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Nlog.config.xml" />
+        <option value="$PROJECT_DIR$/ControllersBasics/nlog.config" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Global.asax.cs" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Models/Book.cs" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/ControllersBasics/Views/Home/BuyBook.cshtml" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1SQLCd8voJnCwKwpJJpwtDQPJfN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,23 +196,39 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="EXE_PATH" value="C:/Program Files (x86)/IIS Express/iisexpress.exe" />
+      <option name="PROGRAM_PARAMETERS" value="/config:$PROJECT_DIR$/.idea/config/applicationhost.config /site:ControllersBasics /apppool:Clr4IntegratedAppPool" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files (x86)/IIS Express" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ControllersBasics/ControllersBasics.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Web" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.1" />
+      <browser url="http://localhost:5000/" start="true" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@52502e96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -69,21 +240,92 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571490746851</updated>
-      <workItem from="1571490748201" duration="260000" />
+      <workItem from="1571490748201" duration="1240000" />
+      <workItem from="1571492248025" duration="15467000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="367" y="37" key="#Default" />
+    <state x="367" y="37" key="#Default/1366.768" />
+    <state x="32" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
+    <state x="32" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/1366.768" />
+    <state x="363" y="98" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" />
+    <state x="363" y="98" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1366.768" />
+    <state width="483" height="437" key="DebuggerActiveHint" />
+    <state width="483" height="437" key="DebuggerActiveHint/1366.768" />
     <state x="463" y="117" key="FileChooserDialogImpl" />
     <state x="463" y="117" key="FileChooserDialogImpl/1366.768" />
+    <state width="1322" height="85" key="GridCell.Tab.0.bottom" />
+    <state width="1322" height="85" key="GridCell.Tab.0.bottom/1366.768" />
+    <state width="1322" height="85" key="GridCell.Tab.0.center" />
+    <state width="1322" height="85" key="GridCell.Tab.0.center/1366.768" />
+    <state width="1322" height="85" key="GridCell.Tab.0.left" />
+    <state width="1322" height="85" key="GridCell.Tab.0.left/1366.768" />
+    <state width="1322" height="85" key="GridCell.Tab.0.right" />
+    <state width="1322" height="85" key="GridCell.Tab.0.right/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom" />
+    <state width="1322" height="216" key="GridCell.Tab.1.bottom/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.1.center" />
+    <state width="1322" height="216" key="GridCell.Tab.1.center/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.1.left" />
+    <state width="1322" height="216" key="GridCell.Tab.1.left/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right" />
+    <state width="1322" height="216" key="GridCell.Tab.1.right/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.2.bottom" />
+    <state width="1322" height="216" key="GridCell.Tab.2.bottom/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.2.center" />
+    <state width="1322" height="216" key="GridCell.Tab.2.center/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.2.left" />
+    <state width="1322" height="216" key="GridCell.Tab.2.left/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.2.right" />
+    <state width="1322" height="216" key="GridCell.Tab.2.right/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.3.bottom" />
+    <state width="1322" height="216" key="GridCell.Tab.3.bottom/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.3.center" />
+    <state width="1322" height="216" key="GridCell.Tab.3.center/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.3.left" />
+    <state width="1322" height="216" key="GridCell.Tab.3.left/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.3.right" />
+    <state width="1322" height="216" key="GridCell.Tab.3.right/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.4.bottom" />
+    <state width="1322" height="216" key="GridCell.Tab.4.bottom/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.4.center" />
+    <state width="1322" height="216" key="GridCell.Tab.4.center/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.4.left" />
+    <state width="1322" height="216" key="GridCell.Tab.4.left/1366.768" />
+    <state width="1322" height="216" key="GridCell.Tab.4.right" />
+    <state width="1322" height="216" key="GridCell.Tab.4.right/1366.768" />
+    <state x="500" y="78" key="RiderGenerateDialog" />
+    <state x="500" y="78" key="RiderGenerateDialog/1366.768" />
+    <state x="281" y="10" key="SettingsEditor" />
+    <state x="281" y="10" key="SettingsEditor/1366.768" />
+    <state x="541" y="75" key="com.intellij.database.view.ui.DbObjectDialog" />
+    <state x="541" y="75" key="com.intellij.database.view.ui.DbObjectDialog/1366.768" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/1366.768" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -92,6 +334,45 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ControllersBasics/Models/Contexts/BookContext.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/ControllersBasics/Models/Contexts/BookContext.cs" initialLine="14">
+            <startOffsets>
+              <option value="390" />
+            </startOffsets>
+            <endOffsets>
+              <option value="484" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs</url>
+          <line>47</line>
+          <properties documentPath="$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs" initialLine="32">
+            <startOffsets>
+              <option value="1204" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1237" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/ControllersBasics/Controllers/HomeController.cs" initialLine="16">
+            <startOffsets>
+              <option value="395" />
+            </startOffsets>
+            <endOffsets>
+              <option value="428" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

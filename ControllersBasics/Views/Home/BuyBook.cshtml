@@ -1,0 +1,27 @@
+﻿@* @model TModel *@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Покупка книги</title>
+    </head>
+<body>
+<h3>Оформление заказа</h3>
+<form action="BuyBook" method="post">
+    
+    <input name="BookId" type="hidden" value="@ViewBag.IdBook">
+    <label for="Firstname">Введите имя</label>
+    <input id="Firstname" name="Firstname" type="text" value=""><br/>
+    <label for="Surname">Введите фамилию</label>
+    <input id="Surname" name="Surname" type="text" value=""><br/>
+    <label for="Address">Введите адрес</label>
+    <input id="Address" name="Address" type="text" value=""><br/>
+    <input type="submit" value="Отправить">
+    
+</form>
+</body>
+</html>
